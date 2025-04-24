@@ -3,7 +3,7 @@
 
 int eyeState = 0;
 unsigned long eyeClosedTime = 0;
-unsigned long maxClosedDuration = 2500; // 2.5 seconds
+unsigned long maxClosedDuration = 2800; // 2.8 seconds
 
 void setup() {
   pinMode(EYE_BLINK_SENSOR_PIN, INPUT);
